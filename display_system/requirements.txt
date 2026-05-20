@@ -1,0 +1,5 @@
+ndi-python
+Pillow
+numpy
+python-osc
+watchdog

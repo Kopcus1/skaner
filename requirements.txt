@@ -1,0 +1,11 @@
+# Obsługa obrazu i GUI
+opencv-contrib-python
+numpy
+Pillow
+
+# Firebase / Google Cloud
+firebase-admin
+google-cloud-firestore
+
+# Systemowe i narzędziowe
+python-dateutil

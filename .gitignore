@@ -1,0 +1,63 @@
+# --- BEZPIECZEŃSTWO (Najważniejsze!) ---
+serviceAccountKey.json
+*.key
+*.pem
+.env
+
+# --- PYTHON / ŚRODOWISKO ---
+.venv/
+venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+pip-log.txt
+pip-delete-this-directory.txt
+
+
+# --- IDE (Ustawienia edytorów) ---
+.idea/
+.vscode/
+*.swp
+
+# --- PLIKI PROJEKTOWE (Dane tymczasowe i wyniki) ---
+# Folder, w którym zapisują się zdjęcia z kamery (RAW_PHOTO)
+content/
+full_content/
+
+# Foldery, do których downloader pobiera witraże
+download/
+display_system/download/
+display_system/library/
+downloader/download/
+
+# Pliki tymczasowe generowane przez system
+*.log
+temp/
+
+# --- SYSTEM OPERACYJNY ---
+Thumbs.db
+Desktop.ini
+.DS_Store
+
+# --- WYJĄTKI (Opcjonalnie) ---
+# *.json
+# !full_map_config.json
+
+# --- INNE PROJEKTY / SUBMODULE ---
+template_gen/
+wit/
+
+# --- DUŻE ASSETY, WIDEO I ARCHIWA ---
+*.mov
+*.mp4
+*.avi
+*.zip
+*.rar
+*.7z
+*.tar.gz
+
+# --- WYNIKOWE I PRZETWARZANE OBRAZY ---
+display_system/processed/
+
+deploy.txt
